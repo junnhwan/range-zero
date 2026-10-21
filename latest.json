@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "app_id": "com.junnhwan.rangezero",
+  "version": "0.1.2",
+  "version_code": 3,
+  "release_url": "https://github.com/junnhwan/range-zero/releases/tag/v0.1.2",
+  "download_url": "https://github.com/junnhwan/range-zero/releases/download/v0.1.2/RangeZero-0.1.2-android.apk",
+  "size_bytes": 91234823,
+  "sha256": "a281402da2e449236b9a5b4310c6b1dd3a36e93a2dbe3922f19d77d135bdc3a4",
+  "notes": "增加手动检查更新，使用 junnhwan/range-zero 发布新版。\n限时多源查新，提供三条加速下载线路与 GitHub 直连。\n石城练场、M4A1 与 12 款免费涂装，保留离线人机和靶场。\n默认 30 帧上限，关闭实时阴影与反射；修复安卓返回键退出与重复切换。"
+}

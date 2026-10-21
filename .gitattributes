@@ -1,0 +1,4 @@
+latest.json text eol=lf
+SHA256SUMS.txt text eol=lf
+# Preserve third-party license text verbatim, including its original spacing.
+THIRD_PARTY_NOTICES.txt text eol=lf -whitespace
