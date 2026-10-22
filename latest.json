@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "app_id": "com.junnhwan.rangezero",
-  "version": "0.4.0",
-  "version_code": 6,
-  "release_url": "https://github.com/junnhwan/range-zero/releases/tag/v0.4.0",
-  "download_url": "https://github.com/junnhwan/range-zero/releases/download/v0.4.0/RangeZero-0.4.0-android.apk",
-  "size_bytes": 217122909,
-  "sha256": "4e9bd51592a1ab0c64a3d218738addccf578d242c25631217d637a9016c555b6",
-  "notes": "- 39 把枪统一改进持枪比例、枪身与手套材质；28 把原调色板枪补充倒角、独立 UV 和接触暗部，其余 11 把恢复作者纹理、法线与表面细节。\n- 修复共用手臂骨架的断袖、手腕接缝和部分瞄具遮挡，恢复 AK47 与 P226 的枪身细节。\n- 按枪系区分后坐与换弹，修正沙鹰弹匣和枪口火焰比例；泵动霰弹、折管双管和机枪供弹盖使用真实分件动作。\n- A 大烘焙场景与经典对局 HUD 默认启用，保留四槽装备、53 种军械和每把 12 种外观；替换会悬浮的通用皮肤套件，保留枪型本身轮廓。\n- 沿用原包名、原签名，可从旧版覆盖安装；地图其他区域、敌人模型与大厅尚未做同等程度的视觉重制。\n\n本轮改善第一人称枪手画面，不宣称与 CF 原作逐件一致。默认 30 帧，无实时阴影和反射；实际手机帧率与操作手感仍待试玩。"
+  "version": "0.4.1",
+  "version_code": 7,
+  "release_url": "https://github.com/junnhwan/range-zero/releases/tag/v0.4.1",
+  "download_url": "https://github.com/junnhwan/range-zero/releases/download/v0.4.1/RangeZero-0.4.1-android.apk",
+  "size_bytes": 238467680,
+  "sha256": "ea69efea8d790ee633e97034e3b012557cbe11690e6573ea9b385310ae215a39",
+  "notes": "- 街道建筑改为窗洞、窗台和壁柱，墙面与地面使用法线、粗糙度；对局使用一盏太阳阴影、天空反射、轻微距离雾、约 1440 像素宽的世界画面和 2x 抗锯齿。\n- 持枪涂装保留金属高光和边缘磨损，近战、加特林和火箭筒按金属与漆面区分粗糙度。\n- 敌人死亡后掉落所携步枪，弹药和备弹都空了可以捡起；手雷投出后手上的模型一并消失。\n- 军械库新增加特林和火箭筒。火箭筒命中后爆炸，近处会伤到自己。\n- 沿用原包名和原签名，可从 0.4.0 覆盖安装。A 大烘焙街景仍使用原来的静态光照，不重复打光。\n\n本版把对局里能看见的场景和枪身从平整简模改成有材质响应的画面，不宣称与 CF 原作逐件一致。默认仍是 30 帧。vivo 真机帧率、温度和手感尚未测量。"
 }
