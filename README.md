@@ -4,13 +4,13 @@ Android 离线第一人称射击试玩。自由移动、手动瞄准、开火换
 
 本仓库用于安装包分发和版本检查。
 
-- [下载 0.4.2 APK，约 229 MiB](https://github.com/junnhwan/range-zero/releases/download/v0.4.2/RangeZero-0.4.2-android.apk)
-- [加速下载](https://gh-proxy.org/https://github.com/junnhwan/range-zero/releases/download/v0.4.2/RangeZero-0.4.2-android.apk)
-- [版本说明与备用文件](https://github.com/junnhwan/range-zero/releases/tag/v0.4.2)
+- [下载 0.4.3 APK，约 230 MiB](https://github.com/junnhwan/range-zero/releases/download/v0.4.3/RangeZero-0.4.3-android.apk)
+- [加速下载](https://gh-proxy.org/https://github.com/junnhwan/range-zero/releases/download/v0.4.3/RangeZero-0.4.3-android.apk)
+- [版本说明与备用文件](https://github.com/junnhwan/range-zero/releases/tag/v0.4.3)
 
 ## 试玩内容
 
-0.4.2 为 11 款非原装皮肤启用自适应 3D 立体改装套件（龙脊护甲、消音器、全息镜、激光盒、制退器、赛博护翼）与浮雕/碳纤维/阳极氧化材质，重做 M134 加特林与 RPG-7 火箭筒造型，并加入持枪惯性、旋转抛壳、四翼枪口焰、连杀爆头反馈与黑色城镇包点细节。
+0.4.3 重构全武器第一人称 PBR 皮肤着色器（加入 3D 影棚天际线镜面反射、微米拉丝金属、三段式装甲分色，并用 FBM 有机噪声与 Voronoi 晶体/裂纹重写大马士革流金龙鳞、二西莫夫斜切、多普勒星云紫晶、熔岩裂纹等 11 款涂装），将 3D 改装套件（枪管下挂刺刀、同轴消音管、制退器、紧凑激光盒、赛博护翼）严密贴合枪管中心轴，并让人机在 33 把主武器与 12 款皮肤中动态随机抽取、死亡后掉落对应涂装武器供拾取。
 
 - 一张黑色城镇简化重建练场，保留 A/B 地标、高低差、车厢、拱廊和水塔；提供靶场与 5 分钟人机对局。
 - 55 种军械：41 把枪、11 种近战、破片/烟雾/闪光三类投掷。同一枪的外观不重复计数，全部免费。
@@ -28,12 +28,12 @@ Android 离线第一人称射击试玩。自由移动、手动瞄准、开火换
 
 ## 安装与更新
 
-Android 7.0 起，需支持 OpenGL ES 3.0。下载 APK 后直接覆盖安装，可保留本机设置和旧版皮肤；请勿先卸载。0.4.2 沿用原包名和原签名，已实测从 0.4.1 覆盖升级，四槽装备和各枪皮肤保留。
+Android 7.0 起，需支持 OpenGL ES 3.0。下载 APK 后直接覆盖安装，可保留本机设置和旧版皮肤；请勿先卸载。0.4.3 沿用原包名和原签名，已实测从 0.4.2 覆盖升级，四槽装备和各枪皮肤保留。
 
 “操作设置 → 检查更新”限时尝试加速线路和官方源；发现更新后选择加速下载一/二/三或 GitHub 直连，在浏览器下载并安装，失败可返回换线。对局与本地资源无需联网，启动不自动查新。
 
 ## 更新清单与许可
 
-`latest.json` 记录公开版本、版本码、APK 地址、字节数、SHA-256 和说明；`SHA256SUMS.txt` 用于核对文件。0.4.2 为 240,355,936 字节，SHA-256：`26898a75711b305436033a33d4cb16e110a2c537500bf96fb926257637a3029e`。
+`latest.json` 记录公开版本、版本码、APK 地址、字节数、SHA-256 和说明；`SHA256SUMS.txt` 用于核对文件。0.4.3 为 241,125,984 字节，SHA-256：`277fcb6111a0be9930fe1b07e192942d41cfe8b7734e646275874a8e9857fde7`。
 
 模型、贴图、字体和引擎的署名及许可保存在 APK 的“关于与许可”和 `THIRD_PARTY_NOTICES.txt` 中。游戏源码、工具和签名材料不在本公开仓库。
