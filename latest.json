@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "app_id": "com.junnhwan.rangezero",
-  "version": "0.1.2",
-  "version_code": 3,
-  "release_url": "https://github.com/junnhwan/range-zero/releases/tag/v0.1.2",
-  "download_url": "https://github.com/junnhwan/range-zero/releases/download/v0.1.2/RangeZero-0.1.2-android.apk",
-  "size_bytes": 91234823,
-  "sha256": "a281402da2e449236b9a5b4310c6b1dd3a36e93a2dbe3922f19d77d135bdc3a4",
-  "notes": "增加手动检查更新，使用 junnhwan/range-zero 发布新版。\n限时多源查新，提供三条加速下载线路与 GitHub 直连。\n石城练场、M4A1 与 12 款免费涂装，保留离线人机和靶场。\n默认 30 帧上限，关闭实时阴影与反射；修复安卓返回键退出与重复切换。"
+  "version": "0.3.0",
+  "version_code": 5,
+  "release_url": "https://github.com/junnhwan/range-zero/releases/tag/v0.3.0",
+  "download_url": "https://github.com/junnhwan/range-zero/releases/download/v0.3.0/RangeZero-0.3.0-android.apk",
+  "size_bytes": 121772055,
+  "sha256": "354bc84ea76e9c427e6a22957f18dccd2f9d30877a99f2b4ba8991c8bbf4e610",
+  "notes": "- 共 53 种可用军械：39 个枪型、11 种近战、破片/烟雾/闪光三类投掷物；同一枪的涂装不重复计数。\n- 新增主武器、副武器、近战、投掷四槽装备；局内点底部卡片切换，电脑使用 1–4、Q 或滚轮。装备和每把武器的皮肤分别保存。\n- 步枪/冲锋枪/机枪具有不同射速、弹匣、后坐力与移动速度；半自动手枪、栓狙、精确步枪、霰弹散射、近战轻重击与投掷物分别生效。备弹有限，切枪取消换弹并保留各槽弹药。\n- 狙击镜有实际相机缩放与镜内准星；手雷具有飞行、反弹、爆炸衰减与掩体遮挡，烟雾遮挡人机视线，闪光可暂时致盲。投掷键高抛、瞄准位置低抛；训练中可点补给重新补满投掷物。\n- 12 种外观方案保留枪身机械细节，按部件着色，并使用脊饰、分段护板、枪口组件等结构套件；近战包含不同刀刃、斧头、铁锹、指虎与长刀。\n- 参考已核对的 CF 手游黑色城镇实战，细化石砖墙脚、灰泥、窄窗、百叶窗、门框、空调与屋檐。仍为手工简化重建，视觉还原与真实手机体验继续接受试玩反馈。\n- 沿用原包名、原签名、离线玩法及默认 30 帧设置；旧版 M4 外观迁移到独立装备配置。"
 }

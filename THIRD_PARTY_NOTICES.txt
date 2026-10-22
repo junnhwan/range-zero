@@ -1,6 +1,9 @@
-RANGE ZERO / 靶域 0.1.2
+RANGE ZERO / 靶域
 
-游戏逻辑、石城练场布局、界面图形、12 款原创枪械涂装和合成音效由 Range Zero 项目创作。
+游戏逻辑、界面图形、12 种原创外观方案、结构套件和合成音效由 Range Zero 项目创作。
+新增军械模型、原创近战衍生和完整署名见下方 ARMORY / MODEL ATTRIBUTION。
+地图路线参照经典黑色城镇资料手工简化重建；楼体、车厢、水塔与布景几何由本项目制作。
+未内置 CF 客户端、原地图 BSP/NAV、贴图或转换网格。
 怀旧大厅使用原生 2D 界面；实战为原生 3D 场景。
 
 M4A1 and first-person arms:
@@ -45,6 +48,93 @@ https://creativecommons.org/publicdomain/zero/1.0/
 Noto Sans SC by Google and Adobe, SIL Open Font License 1.1.
 https://github.com/google/fonts/tree/main/ofl/notosanssc
 The following section contains the font license, followed by Godot and its dependency notices.
+
+
+RANGE ZERO 0.3 ARMORY / MODEL ATTRIBUTION
+
+Modern firearms by TastyTony; palette, rigging and adaptations by Pichuliru. CC BY 4.0.
+https://opengameart.org/content/ultimate-low-poly-guns
+https://creativecommons.org/licenses/by/4.0/
+Range Zero modifications: Blender export, metre-scale alignment to the FP grip, separate magazine/bolt meshes, 512px diffuse-only materials, procedural support-arm poses and original finish/optic geometry.
+
+Low-Poly AK-74 by TastyTony: https://sketchfab.com/3d-models/b27f9003622a4c7499bfd8d2a06dc47b
+Low-Poly AKS-74U by TastyTony: https://sketchfab.com/3d-models/4fc741a30b20477ea748f5d2837ac0b4
+Low-Poly FN FAL by TastyTony: https://sketchfab.com/3d-models/c737946bdccf4441b558b97ede5d0e3b
+Low-Poly Famas F1 by TastyTony: https://sketchfab.com/3d-models/bbd20712667e49088f5c9960b97c3d83
+Low-Poly HK G3 by TastyTony: https://sketchfab.com/3d-models/825e5a5dfe664e48995d73507a1a7650
+Low-Poly HK G36c by TastyTony: https://sketchfab.com/3d-models/bed5e5d5364f44f8921321a52c54b6b5
+Low-Poly L85a2 by TastyTony: https://sketchfab.com/3d-models/7947aaf7ad88489c82b1152175e24212
+Low-Poly M16a4 by TastyTony: https://sketchfab.com/3d-models/496afafda8cf4db0b7564bc1e4756256
+Low-Poly FN SCAR H by TastyTony: https://sketchfab.com/3d-models/c52bc2a8ddaa47caa34e94d69ff72d96
+Low-Poly Sig SG552 Commando by TastyTony: https://sketchfab.com/3d-models/d00c7ec69b3a4fde98c6212b2840ebc4
+Low-Poly Beretta 92fs by TastyTony: https://sketchfab.com/3d-models/859943889553467eaa0203400117c595
+Low-Poly Makarov by TastyTony: https://sketchfab.com/3d-models/fb34fb6cb83a45a989f8b02c130de857
+Low-Poly M249 SAW by TastyTony: https://sketchfab.com/3d-models/76011c365636451c90a8e3a46c2d8ca5
+Low-Poly M60 by TastyTony: https://sketchfab.com/3d-models/e5a04ab236154243940aeee502f505e5
+Low-Poly PKM by TastyTony: https://sketchfab.com/3d-models/626082c669c740efa06e03c63b7bc2d9
+Low-Poly Ruger 10/22 by TastyTony: https://sketchfab.com/3d-models/ec16ed457bcb4ea796cf438a22467930
+Low-Poly M14 by TastyTony: https://sketchfab.com/3d-models/30e47673a17b434386e9c3af54670bed
+Low-Poly Barrett M82A1 by TastyTony: https://sketchfab.com/3d-models/9c7027e5a64e40e9ae927adb0872b6d8
+Low-Poly SKS by TastyTony: https://sketchfab.com/3d-models/7d7a27cf2c7a45ceb671701c8fa7c2e9
+Low-Poly SVD Dragunov by TastyTony: https://sketchfab.com/3d-models/fe40c5c2696441bc8696ed042056709e
+Low-Poly Fox Sterlingworth Philly by TastyTony: https://sketchfab.com/3d-models/74fe0453d43e4569a2f7e615fdaa99d7
+Low-Poly Ithaca M37 by TastyTony: https://sketchfab.com/3d-models/74da1e6054cc40e3b61bed4b4d8eef61
+Low-Poly Mossberg 590 by TastyTony: https://sketchfab.com/3d-models/c0551a6b841145f7a8e59e9304728f1f
+Low-Poly CZ Drake by TastyTony: https://sketchfab.com/3d-models/cdd637b874fa41809d528862d0ef279c
+Low-Poly Mac 10 by TastyTony: https://sketchfab.com/3d-models/5e0f166601554ed89ebf363e4b3f6c84
+Low-Poly HK MP7 by TastyTony: https://sketchfab.com/3d-models/0ebd1e2b7a60408cb3b587b4807635ab
+Low-Poly FN P90 by TastyTony: https://sketchfab.com/3d-models/96b61ebbbf154843b621ebf7f48647fc
+Low-Poly IMI Uzi by TastyTony: https://sketchfab.com/3d-models/d9f0070b3c924caf8fe47e41881389f0
+
+Additional first-person firearm models, all CC BY 4.0 except VSS (CC0) and AK-47 source geometry (CC0):
+FN Scar-L Assault Rifle by Hitansh 3D: https://sketchfab.com/3d-models/ea1823de59684fd596d9f6726382f948
+MP5 Submachine Gun by Rotuma: https://sketchfab.com/3d-models/a73b61932a0e4eecb5db5c63c158aa24
+AWM by ErhanMatur: https://sketchfab.com/3d-models/bacc05ad5c074c9daa3aa7ca02766a6c
+M24 Bounty Hunter Sniper Rifle by Naudaff3D: https://sketchfab.com/3d-models/d40e74e2259549f5b025807163f1028c
+Sig Sauer P226 by Alexcanot: https://sketchfab.com/3d-models/e3d4f1ab22f342f4a0891743353c114c
+M1911 pistol by e.belous: https://sketchfab.com/3d-models/80a0b8a6c4314da4a7b3a7cfe6cec1d4
+FPS Arms remington (shotgun) by Cransh, Remington 870 by tris09: https://sketchfab.com/3d-models/e68ef617fe8a48cca8610d016ffd5881
+FPS pistol animations rig/grip template by Cransh: https://sketchfab.com/3d-models/0d7a343dcb6f401197a73c91aee93f6d
+FPS animations sniper rifle rig/grip template by Cransh: https://sketchfab.com/3d-models/c15ae8393d824f5b929e3f69691cdd31
+Special Sniper Rifle VSS Vintorez by Arms Museum, CC0: https://sketchfab.com/3d-models/4d5d8c1b7b79429abfa4816f18330089
+AK-47 source by taradavies, CC0: https://opengameart.org/content/ak-47-1
+AK material/geometry adaptation by Operation Steel Tide / AetherRadar; first-person assembly, arms, grip and texture adaptations by cktang88/3d-fps.
+https://github.com/cktang88/3d-fps/tree/130ac2a5c856401ec36e7d35afcfefe40c5801f4
+https://github.com/AetherRadar/operation-steel-tide
+Range Zero modifications: storage decompression, float accessor conversion, 512px diffuse-only maps, static grip, procedural recoil/reload, material and silhouette kits. Fab-derived rifle animation files were not acquired or included.
+https://creativecommons.org/licenses/by/4.0/
+https://creativecommons.org/publicdomain/zero/1.0/
+
+Desert Eagle by ELIZION, CC BY 4.0.
+https://sketchfab.com/3d-models/cabde59f5cf24effaf80536e35d04e95
+https://creativecommons.org/licenses/by/4.0/
+Adaptations by Operation Steel Tide / AetherRadar and Range Zero: texture reduction, positioning, material simplification, separate magazine/slide animation. Source-model display cartridges are hidden.
+
+Tactical knife, zhanma_dao and tianxuan_dao by Operation Steel Tide / AetherRadar, MIT.
+https://github.com/AetherRadar/operation-steel-tide/tree/d6a33b932e00fb9016dea407eca3f909aeaf2dcb/source_art/melee_weapons
+Range Zero adaptations: material simplification, grip alignment, colour finishes and procedural swings. These source assets are used for the tactical knife, Zhanma and Xuanyue models; other melee geometry and throwable shapes are original Range Zero work.
+
+MIT License
+
+Copyright (c) 2026 AetherRadar
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 
 Copyright 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'
