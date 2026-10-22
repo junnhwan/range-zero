@@ -1,1 +1,1 @@
-354bc84ea76e9c427e6a22957f18dccd2f9d30877a99f2b4ba8991c8bbf4e610  RangeZero-0.3.0-android.apk
+4e9bd51592a1ab0c64a3d218738addccf578d242c25631217d637a9016c555b6  RangeZero-0.4.0-android.apk

@@ -4,11 +4,13 @@ Android 离线第一人称射击试玩。自由移动、手动瞄准、开火换
 
 本仓库用于安装包分发和版本检查。
 
-- [下载 0.3.0 APK，约 116 MiB](https://github.com/junnhwan/range-zero/releases/download/v0.3.0/RangeZero-0.3.0-android.apk)
-- [加速下载](https://gh-proxy.org/https://github.com/junnhwan/range-zero/releases/download/v0.3.0/RangeZero-0.3.0-android.apk)
-- [版本说明与备用文件](https://github.com/junnhwan/range-zero/releases/tag/v0.3.0)
+- [下载 0.4.0 APK，约 207 MiB](https://github.com/junnhwan/range-zero/releases/download/v0.4.0/RangeZero-0.4.0-android.apk)
+- [加速下载](https://gh-proxy.org/https://github.com/junnhwan/range-zero/releases/download/v0.4.0/RangeZero-0.4.0-android.apk)
+- [版本说明与备用文件](https://github.com/junnhwan/range-zero/releases/tag/v0.4.0)
 
 ## 试玩内容
+
+0.4.0 改进全部 39 把枪的材质、握持与按枪系区分的动作，A 大烘焙场景和经典对局 HUD 默认启用。
 
 - 一张黑色城镇简化重建练场，保留 A/B 地标、高低差、车厢、拱廊和水塔；提供靶场与 5 分钟人机对局。
 - 53 种军械：39 把枪、11 种近战、破片/烟雾/闪光三类投掷。同一枪的外观不重复计数，全部免费。
@@ -22,16 +24,16 @@ Android 离线第一人称射击试玩。自由移动、手动瞄准、开火换
 
 ![Android 模拟器实际军械库](images/armory.png)
 
-这些为实际 Android 模拟器截图。场景仍为简化重建，部分新增枪为低多边形模型，动作由代码驱动；地图与武器画面仍需继续打磨，真实手机的性能和手感尚待试玩。
+这些为实际 Android 模拟器截图。39 把枪的持枪、开镜、开火、换弹及 636 张军械库预览均已检查；仍有低模轮廓、共享手指贴合与程序化动作的局限。地图其他区域、敌人和大厅尚未做同等程度重制，真实手机的性能和手感尚待试玩。
 
 ## 安装与更新
 
-Android 7.0 起，需支持 OpenGL ES 3.0。下载 APK 后直接覆盖安装，可保留本机设置和旧版皮肤；请勿先卸载。0.3.0 沿用原包名和原签名，已实测从公开 0.1.2 覆盖升级。
+Android 7.0 起，需支持 OpenGL ES 3.0。下载 APK 后直接覆盖安装，可保留本机设置和旧版皮肤；请勿先卸载。0.4.0 沿用原包名和原签名，已实测从公开 0.3.0 覆盖升级，四槽装备和各枪皮肤保留。
 
 “操作设置 → 检查更新”限时尝试加速线路和官方源；发现更新后选择加速下载一/二/三或 GitHub 直连，在浏览器下载并安装，失败可返回换线。对局与本地资源无需联网，启动不自动查新。
 
 ## 更新清单与许可
 
-`latest.json` 记录公开版本、版本码、APK 地址、字节数、SHA-256 和说明；`SHA256SUMS.txt` 用于核对文件。0.3.0 为 121,772,055 字节，SHA-256：`354bc84ea76e9c427e6a22957f18dccd2f9d30877a99f2b4ba8991c8bbf4e610`。
+`latest.json` 记录公开版本、版本码、APK 地址、字节数、SHA-256 和说明；`SHA256SUMS.txt` 用于核对文件。0.4.0 为 217,122,909 字节，SHA-256：`4e9bd51592a1ab0c64a3d218738addccf578d242c25631217d637a9016c555b6`。
 
 模型、贴图、字体和引擎的署名及许可保存在 APK 的“关于与许可”和 `THIRD_PARTY_NOTICES.txt` 中。游戏源码、工具和签名材料不在本公开仓库。

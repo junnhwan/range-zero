@@ -17,6 +17,7 @@ https://sketchfab.com/3d-models/fps-ak-74m-animations-94be8385c402474cacd39bc096
 Combined model, reposing, rigging, material adaptations and AO baking by cktang88/3d-fps.
 https://github.com/cktang88/3d-fps/tree/130ac2a5c856401ec36e7d35afcfefe40c5801f4
 Range Zero adaptations: Meshopt decoding, float accessors, diffuse-only 512px textures, material simplification, runtime positioning, procedural recoil and reload.
+Classic presentation adaptations: source-detail shading, weapon-specific posing and a glove mask derived from the arm mesh's hand/finger skin weights. The derived mask retains the Fps arms CC BY 4.0 attribution above.
 
 Enemy character and animations:
 FREE Military Soldier RIGGED by BAMEN, CC BY 4.0.
@@ -55,7 +56,7 @@ RANGE ZERO 0.3 ARMORY / MODEL ATTRIBUTION
 Modern firearms by TastyTony; palette, rigging and adaptations by Pichuliru. CC BY 4.0.
 https://opengameart.org/content/ultimate-low-poly-guns
 https://creativecommons.org/licenses/by/4.0/
-Range Zero modifications: Blender export, metre-scale alignment to the FP grip, separate magazine/bolt meshes, 512px diffuse-only materials, procedural support-arm poses and original finish/optic geometry.
+Range Zero modifications: Blender export, metre-scale alignment to the FP grip, separate magazine/bolt meshes, submillimetre edge bevels and weighted normals, rebuilt non-overlapping UVs, original 1024px metal/wood/polymer surface atlases with baked contact occlusion, 512px roughness/metal masks, procedural support-arm poses and original finish/optic geometry. Original author geometry and moving-part/socket transforms are retained. See classic-surface-manifest.json for individual output checksums and triangle counts.
 
 Low-Poly AK-74 by TastyTony: https://sketchfab.com/3d-models/b27f9003622a4c7499bfd8d2a06dc47b
 Low-Poly AKS-74U by TastyTony: https://sketchfab.com/3d-models/4fc741a30b20477ea748f5d2837ac0b4
@@ -101,14 +102,15 @@ AK-47 source by taradavies, CC0: https://opengameart.org/content/ak-47-1
 AK material/geometry adaptation by Operation Steel Tide / AetherRadar; first-person assembly, arms, grip and texture adaptations by cktang88/3d-fps.
 https://github.com/cktang88/3d-fps/tree/130ac2a5c856401ec36e7d35afcfefe40c5801f4
 https://github.com/AetherRadar/operation-steel-tide
-Range Zero modifications: storage decompression, float accessor conversion, 512px diffuse-only maps, static grip, procedural recoil/reload, material and silhouette kits. Fab-derived rifle animation files were not acquired or included.
+Range Zero modifications: storage decompression, float accessor conversion, bounded source detail-map restoration (up to 1024px albedo and 512px normal/roughness/metal/occlusion), static grip, procedural recoil/reload, material and silhouette kits. Source geometry, skinning and node transforms are retained. See classic-detail-manifest.json for output checksums. Fab-derived rifle animation files were not acquired or included.
+P226 fixed-light color derivative: original diffuse and KHR_materials_specular color atlases combined in linear space at 1024px, retaining the author's mechanical surface detail. AK-47 color derivatives: original steel scratches and wood/bakelite grain luminance retained; source brown chroma regularized and quantization steps softened for wood/bakelite; linear exposure applied before GPU compression. Original source files and geometry are unchanged. Reproducible conversion and checksums are recorded in ak47-fixed-light-manifest.json.
 https://creativecommons.org/licenses/by/4.0/
 https://creativecommons.org/publicdomain/zero/1.0/
 
 Desert Eagle by ELIZION, CC BY 4.0.
 https://sketchfab.com/3d-models/cabde59f5cf24effaf80536e35d04e95
 https://creativecommons.org/licenses/by/4.0/
-Adaptations by Operation Steel Tide / AetherRadar and Range Zero: texture reduction, positioning, material simplification, separate magazine/slide animation. Source-model display cartridges are hidden.
+Adaptations by Operation Steel Tide / AetherRadar and Range Zero: bounded source albedo/normal/roughness/metal texture restoration, positioning, view-space material response and separate magazine/slide animation. Source-model display cartridges are hidden; original geometry and node transforms are retained.
 
 Tactical knife, zhanma_dao and tianxuan_dao by Operation Steel Tide / AetherRadar, MIT.
 https://github.com/AetherRadar/operation-steel-tide/tree/d6a33b932e00fb9016dea407eca3f909aeaf2dcb/source_art/melee_weapons
