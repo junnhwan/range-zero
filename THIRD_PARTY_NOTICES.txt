@@ -138,6 +138,46 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+Handguns added for distinct sidearm silhouettes. Checksums are in assets/vendor/handguns/source-manifest.json.
+Luger P08, CC0, from the BoQsc guns and explosives pack: https://3dmodelscc0.itch.io/free-cc0-guns-explosives-pack
+https://github.com/BoQsc/cc0-guns-explosives-pack-glb/releases/tag/0
+Revolver, CC0, by the OpenGameArt revolver asset: https://opengameart.org/content/revolver-game-asset
+Range Zero aligned both to the first-person grip and kept the Luger magazine/toggle and the revolver cylinder hinge as separate moving parts.
+The long-barrel box pistol is original Range Zero geometry and surface maps, with a broom handle, forward magazine and narrow barrel. It is not a scanned Mauser.
+
+
+Recorded firearm audio
+
+The Free Firearm Sound Library
+Recorded by Ben Jaszczak, Brian Nelson, Kevin Heras and Matthew Nanney.
+Source: https://opengameart.org/content/the-free-firearm-sound-library
+License: CC0 1.0 Universal
+https://creativecommons.org/publicdomain/zero/1.0/
+
+Range Zero uses edited excerpts: direct reports isolated from the prepared
+library, lead-in removed, short fades, gentle frequency filtering and conversion
+to 44.1 kHz mono PCM. Two original takes are retained per sound bank.
+The source paths, source hashes, crop times and output hashes are recorded in
+assets/audio/firearms/source-manifest.json. Banks represent firearm families;
+they are not a claim of authentic recordings of every depicted weapon.
+
+
+Detailed melee models
+
+Combat Knife, Dagger and Katana by 3dmodelscc0.
+Source: https://3dmodelscc0.itch.io/free-cc0-melee-weapons-pack
+License: CC0 1.0 Universal
+https://creativecommons.org/publicdomain/zero/1.0/
+
+GLB conversion by BoQsc, obtained from the conversion mirror linked in the
+source page's comments:
+https://github.com/BoQsc/cc0-melee-weapons-pack-glb/releases/tag/0
+
+Range Zero adaptations: presentation rotation removed, blade planes and grip
+origins aligned to the existing metre-scale first-person rig. Geometry, UVs,
+normal, albedo and packed metal/roughness maps are retained. Source and output
+hashes are in assets/vendor/melee_refresh/source-manifest.json.
+
 
 Copyright 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'
 
