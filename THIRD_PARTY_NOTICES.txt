@@ -1,3 +1,25 @@
+Range Zero reference content adaptation (2026-10-24)
+
+Models, character/weapon animations, textures and weapon/character sounds:
+Infima Games, Low Poly Animated Weapons / Low Poly Shooter Pack.
+https://www.infimagames.com/
+https://docs.infimagames.com/
+
+Source version retained for this adaptation: the local 2.2.6 reference-game
+resource archive supplied for Range Zero development. The project owner
+confirmed that the supplied content may be publicly included in this project.
+Original content remains copyright its respective owners; it is not offered
+under Range Zero's code license or a new CC0/CC BY license.
+
+Range Zero adaptations: ActorX animation conversion, additive pose baking for
+each weapon, Godot material reconstruction and normal-map coordinate conversion,
+animation/audio state integration, source material selection and save mapping,
+in-game character attachments and Android packaging.
+
+The game package contains the adapted runtime content. It does not include the
+original APK, Pak, recovered blueprints, game source, logos or advertising SDKs.
+
+
 RANGE ZERO / 靶域
 
 游戏逻辑、界面图形、12 种原创外观方案、结构套件和合成音效由 Range Zero 项目创作。
@@ -5,6 +27,28 @@ RANGE ZERO / 靶域
 地图路线参照经典黑色城镇资料手工简化重建；楼体、车厢、水塔与布景几何由本项目制作。
 未内置 CF 客户端、原地图 BSP/NAV、贴图或转换网格。
 怀旧大厅使用原生 2D 界面；实战为原生 3D 场景。
+
+Authored rifle hand animation adaptation (M4, 2026-10-24):
+Animated FPS hands (rifle animation pack) by Cransh, CC BY 4.0.
+https://sketchfab.com/3d-models/animated-fps-hands-rifle-animation-pack-5f2d0ed780a94724b36ab505f7564057
+Adapted to the existing M4: ACR geometry removed, arm textures resized,
+M4 body and magazine attached to the original authored body/magazine tracks.
+Source and modification details: assets/vendor/cransh/LICENSE.md.
+
+Additional authored arm-only performances (2026-10-24), Cransh, CC BY 4.0:
+FPS AK-74m animations:
+https://sketchfab.com/3d-models/fps-ak-74m-animations-94be8385c402474cacd39bc096c6ca14
+FPS pistol animations:
+https://sketchfab.com/3d-models/fps-pistol-animations-0d7a343dcb6f401197a73c91aee93f6d
+SMG FPS Animations:
+https://sketchfab.com/3d-models/smg-fps-animations-ca37ea9148dc4fcc9cc632175d311b23
+FPS Arms remington (shotgun):
+https://sketchfab.com/3d-models/fps-arms-remington-shotgun-e68ef617fe8a48cca8610d016ffd5881
+FPS animations sniper rifle:
+https://sketchfab.com/3d-models/fps-animations-sniper-rifle-c15ae8393d824f5b929e3f69691cdd31
+Gun meshes excluded; original arms and animations retained, maps resized,
+storage decoded, runtime grip and action bindings adapted. Full details and
+shared DJMaesen Fps arms attribution: assets/vendor/cransh/LICENSE.md.
 
 M4A1 and first-person arms:
 M4A1 by Firewarden3D, CC BY 4.0.
